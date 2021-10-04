@@ -224,7 +224,7 @@ function containsElement(array, element) {
     let prestrings = "";
   
     strings = strings + delimiter; /* Delimiter is added immidiate after the original 
-                                 string to grave and push the last word of string.*/
+                                 string to grab and push the last word of string.*/
   
     for (let i = 0; i < strings.length; i++) {
       let index = strings[i];
